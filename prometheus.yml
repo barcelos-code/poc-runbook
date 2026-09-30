@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 3s # Coleta métricas a cada 3 segundos para acelerar o teste na PoC
+
+scrape_configs:
+  - job_name: 'poc-ts-app'
+    static_configs:
+      - targets: ['app:8080'] # 'app' é o nome do container da nossa API no Docker

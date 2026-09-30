@@ -1,0 +1,39 @@
+# Logs e relatórios de incidentes do Runbook
+/tmp/
+*.log
+/tmp/my-app-incident-*.log
+*.pid
+*.lock
+
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ficheiros de Build / Compilação TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Variáveis de Ambiente e Segredos
+.env
+.env.local
+.env.*.local
+
+# Ficheiros do Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Configurações de IDE / Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Dados persistentes do Docker / Grafana / Prometheus (se mapeados localmente)
+grafana_data/
+prometheus_data/
