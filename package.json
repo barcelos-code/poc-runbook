@@ -9,5 +9,13 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "prom-client": "^15.1.3"
   }
 }
